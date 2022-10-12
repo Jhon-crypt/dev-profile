@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpfastcache/phpfastcache": "^9.1",
+        "smarty/smarty": "^4.2",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
