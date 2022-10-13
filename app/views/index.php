@@ -46,6 +46,16 @@ class indexView{
 
         <body ng-app="app" style="background-color:#010101;">
 
+            <main>
+
+                <header></header>
+
+            </main>
+
+            <script src="./app/modules/app.module.js"></script>
+
+            <script src="./app/layouts/header/header.layout.js"></script>
+
         </body>
 
         </html>
