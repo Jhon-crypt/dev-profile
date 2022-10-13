@@ -50,11 +50,18 @@ class indexView{
 
                 <header></header>
 
+                <ng-view></ng-view>
+
             </main>
 
             <script src="./app/modules/app.module.js"></script>
 
             <script src="./app/layouts/header/header.layout.js"></script>
+
+            <script src="./app/controllers/routeController/route.controller.js"></script>
+
+            <script src="./app/layouts/signup/signup.layout.js"></script>
+
 
         </body>
 
