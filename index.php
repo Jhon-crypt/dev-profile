@@ -36,15 +36,32 @@
         <body ng-app="app" style="background-color:#010101;">
 
             <main>
+
                 <header></header>
+
                 <landing-hero></landing-hero>
+
                 <features></features>
+
+                <signup-hero></signup-hero>
+
+                <footer></footer>
+
             </main>
 
             <script src="./app/modules/app.module.js"></script>
+
             <script src="./app/layouts/header.layout.js"></script>
+
             <script src="./app/layouts/landing-hero.layout.js"></script>
+
             <script src="./app/layouts/features.layout.js"></script>
+
+            <script src="./app/controllers/features.controller.js"></script>
+
+            <script src="./app/layouts/signup-hero.layout.js"></script>
+
+            <script src="./app/layouts/footer.layout.js"></script>
 
         </body>
 
