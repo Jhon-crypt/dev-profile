@@ -9,7 +9,7 @@ app.directive("signup", function(){
             <div class="row align-items-center g-lg-5 py-5">
 
                 <div class="col-lg-7 text-center text-lg-start">
-                    <img src="" class="img-fluid"
+                    <img src="./app/images/image1.jpg" class="img-fluid" width="700" height="500" loading="lazy">
                 </div>
 
                 <div class="col-md-10 mx-auto col-lg-5">
