@@ -1,4 +1,4 @@
-app.directive("signup", function(){
+app.directive("login", function(){
 
     return {
 
@@ -16,7 +16,7 @@ app.directive("signup", function(){
                     <form class="p-4 p-md-5 border rounded-3 bg-dark">
 
                         <h1 align="center" class="display-5 fw-bold lh-1 mb-3 text-light">
-                            Sign Up Now
+                            Login Now
                         </h1>
 
                         <div class="form-floating mb-3">
@@ -25,27 +25,18 @@ app.directive("signup", function(){
                         </div>
 
                         <div class="form-floating mb-3">
-                            <select class="form-select">
-                                <option>Gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                            </select>
-                        </div>
-
-                        <div class="form-floating mb-3">
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                             <label for="floatingPassword">Password <i class="fa fa-lock"></i></label>
                         </div>
 
-                        <a style="text-decoration:none;" href="#!signupSuccess">
                         <button class="w-100 btn btn-lg btn-outline-light" type="submit">
                             <font color="#5379F6">
-                                Sign up
+                                Login
                             </font>
                         </button>
-                        </a>
 
-                        <small class="text-muted" align="center">Already have an account, login <a href="#!login">here</a>.</small>
+                        <small class="text-muted" align="center">Don't have an account, sign up <a href="#/!">here</a>, Or did you forget 
+                        your password, click <a href="">here</a> to reset it</small>
 
                     </form>
 
