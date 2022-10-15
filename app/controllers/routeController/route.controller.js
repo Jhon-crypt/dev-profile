@@ -10,5 +10,11 @@ app.config(function($routeProvider){
     .when("/signupSuccess", {
         templateUrl : "./app/views/signupView/signup-success.view.html"
     })
+    .when("/dashboard", {
+        templateUrl : "./app/views/dashboardView/dashboard.view.html"
+    })
+    .when("/createDevProfileStepOne", {
+        templateUrl : "./app/views/create-devprofileView/create-devprofile-step1.view.html"
+    })
 
 });

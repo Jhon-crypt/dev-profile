@@ -66,6 +66,9 @@ class indexView{
 
             <script src="./app/layouts/signup/signup-success.layout.js"></script>
 
+            <script src="./app/layouts/dashboard/dashboard.layout.js"></script>
+
+            <script src="./app/layouts/create-devprofile/create-devprofile-step1.layout.js"></script>
 
         </body>
 

@@ -29,11 +29,13 @@ app.directive("login", function(){
                             <label for="floatingPassword">Password <i class="fa fa-lock"></i></label>
                         </div>
 
+                        <a href="#!dashboard" style="text-decoration:none;">
                         <button class="w-100 btn btn-lg btn-outline-light" type="submit">
                             <font color="#5379F6">
                                 Login
                             </font>
                         </button>
+                        </a>
 
                         <small class="text-muted" align="center">Don't have an account, sign up <a href="#/!">here</a>, Or did you forget 
                         your password, click <a href="">here</a> to reset it</small>
