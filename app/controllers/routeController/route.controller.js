@@ -16,5 +16,17 @@ app.config(function($routeProvider){
     .when("/createDevProfileStepOne", {
         templateUrl : "./app/views/create-devprofileView/create-devprofile-step1.view.html"
     })
+    .when("/createDevprofileStepTwo", {
+        templateUrl : "./app/views/create-devprofileView/create-devprofile-step2.view.html"
+    })
+    .when("/addExperience", {
+        templateUrl : "./app/views/create-devprofileView/add-experience.view.html"
+    })
+    .when("/addProjects", {
+        templateUrl : "./app/views/create-devprofileView/add-projects.view.html"
+    })
+    .when("/addContact", {
+        templateUrl : "./app/views/create-devprofileView/add-contact.view.html"
+    })
 
 });

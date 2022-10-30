@@ -1,4 +1,4 @@
-app.directive("createDevprofileStepOne", function(){
+app.directive("createDevprofileStepTwo", function(){
 
     return {
 
@@ -24,7 +24,7 @@ app.directive("createDevprofileStepOne", function(){
 
                         <ul class="dropdown-menu">
 
-                             <li><a class="dropdown-item" href="#!dashboard">
+                            <li><a class="dropdown-item" href="#!dashboard">
                                 <i class="fa fa-home mx-2"></i>Dashboard
                             </a></li>
 
@@ -59,20 +59,51 @@ app.directive("createDevprofileStepOne", function(){
 
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput" class="text-dark"><i class="fa fa-user"></i> Full name</label>
+                    <label for="floatingInput" class="text-dark"><i class="fa fa-superpowers"></i> Skill</label>
                 </div>
 
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingTitle" placeholder="Title">
-                    <label for="floatingTitle" class="text-dark"><i class="fa fa-briefcase"></i> Title</label>
-                </div>
+                <button class="w-100 btn btn-sm btn-outline-light mb-3" type="submit">
+                        <font color="#5379F6">
+                            Add skill <i class="fa fa-plus-circle"></i>
+                        </font>
+                </button>
 
-                <div class="form-floating mb-3">
-                    <textarea class="form-control" rows="7" id="floatingAbout" placeholder="About"></textarea>
-                    <label for="floatingAbout" class="text-dark"><i class="fa fa-align-left"></i> About</label>
-                </div>
+                <small>
+                <ul class="nav mb-3">
 
-                <a href="#!createDevprofileStepTwo" style="text-decoration:none;">
+                    <li class="nav-item">
+                        <a class="nav-link" style="text-decoration:none;">
+                            <button class="btn btn-outline-light btn-sm" style="border-radius:25px;">
+                                Php
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="text-decoration:none;">
+                            <button class="btn btn-outline-light btn-sm" style="border-radius:25px;">
+                                Javascript
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="text-decoration:none;">
+                            <button class="btn btn-outline-light btn-sm" style="border-radius:25px;">
+                                Python
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="text-decoration:none;">
+                            <button class="btn btn-outline-light btn-sm" style="border-radius:25px;">
+                                Golang
+                            </button>
+                        </a>
+                    </li>
+
+                </ul>
+                </small>
+
+                <a href="#!addExperience" style="text-decoration:none;">
                     <button class="w-100 btn btn-lg btn-outline-light" type="submit">
                         <font color="#5379F6">
                             Next <i class="fa fa-arrow-circle-right"></i>
@@ -86,4 +117,4 @@ app.directive("createDevprofileStepOne", function(){
 
     }
 
-});
+})

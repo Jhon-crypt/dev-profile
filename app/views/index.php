@@ -70,6 +70,16 @@ class indexView{
 
             <script src="./app/layouts/create-devprofile/create-devprofile-step1.layout.js"></script>
 
+            <script src="./app/layouts/create-devprofile/create-devprofile-step2.layout.js"></script>
+
+            <script src="./app/layouts/create-devprofile/add-experience.layout.js"></script>
+
+            <script src="./app/layouts/create-devprofile/add-projects.layouts.js"></script>
+
+            <script src="./app/layouts/create-devprofile/add-contact.layout.js"></script>
+
+            <script src="./app/layouts/create-devprofile/add-avatar.layout.js"></script>
+
         </body>
 
         </html>

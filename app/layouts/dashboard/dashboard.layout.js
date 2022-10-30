@@ -24,7 +24,11 @@ app.directive("dashboard", function(){
 
                         <ul class="dropdown-menu">
 
-                             <li><a class="dropdown-item" href="#!createDevProfileStepOne">
+                            <li><a class="dropdown-item" href="#!dashboard">
+                                <i class="fa fa-home mx-2"></i>Dashboard
+                            </a></li>
+
+                            <li><a class="dropdown-item" href="#!createDevProfileStepOne">
                                 <i class="fa fa-plus-circle mx-2"></i>New Profile
                             </a></li>
 
