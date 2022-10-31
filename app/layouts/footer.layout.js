@@ -67,7 +67,7 @@ app.directive("footer", function(){
                 <li class="nav-item">
 
                     <a class="nav-link text-muted">
-                        <small>JohnOx © 2022</small>
+                        <small>Coding_wizard__ © 2022</small>
                     </a>
 
                 </li>

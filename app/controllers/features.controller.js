@@ -14,9 +14,6 @@ app.controller("featuresCtrl",
                 title:'Share Experience',image_route:'app/images/features3.jpg'
             },
             {
-                title:'Diy Themes',image_route:'app/images/features4.jpg'
-            },
-            {
                 title:'Safe And Secure',image_route:'app/images/features5.jpg'
             }
 

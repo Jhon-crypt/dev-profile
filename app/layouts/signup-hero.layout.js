@@ -11,7 +11,8 @@ app.directive("signupHero", function(){
             <div class="col-lg-6 mx-auto">
 
                 <p class="lead mb-4">
-                    Devprofile makes it simple to showcase amazing computing skills, awesome next big projects and suberb working experiences.
+                    Devprofile makes it simple to showcase amazing computing skills, awesome next big projects and suberb working experiences 
+                    with simple projects.
                 </p>
 
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
