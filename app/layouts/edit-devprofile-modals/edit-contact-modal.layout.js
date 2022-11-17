@@ -1,16 +1,16 @@
-app.directive("addAvatarModal", function(){
+app.directive("editContactModal", function() {
 
     return {
 
         template : `
-        
-        <div class="modal fade" id="avatarModal">
+
+        <div class="modal fade" id="editContactModal">
             <div class="modal-dialog">
                 <div class="modal-content">
 
                     <div class="modal-header bg-dark">
                         <h4 class="modal-title">
-                            <font color="#5379F6">Add Avatar <i class="fa fa-user-circle-o"></i></font>
+                            <font color="#5379F6">Add Contact <i class="fa fa-id-badge"></i></font>
                         </h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
@@ -44,9 +44,9 @@ app.directive("addAvatarModal", function(){
             </div>
 
         </div>
-        
+
         `
 
     }
 
-})
+});

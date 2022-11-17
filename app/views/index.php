@@ -78,7 +78,17 @@ class indexView{
 
             <script src="./app/layouts/create-devprofile/add-contact.layout.js"></script>
 
-            <script src="./app/layouts/create-devprofile/add-avatar.layout.js"></script>
+            <script src="./app/layouts/add-avatar/add-avatar.layout.js"></script>
+
+            <script src="./app/layouts/devprofile/devprofile.layout.js"></script>
+
+            <script src="./app/layouts/edit-devprofile-modals/edit-avatar-modal.layout.js"></script>
+
+            <script src="./app/layouts/edit-devprofile-modals/edit-profile-modal.layout.js"></script>
+
+            <script src="./app/layouts/edit-devprofile-modals/edit-project-modal.layout.js"></script>
+
+            <script src="./app/layouts/edit-devprofile-modals/edit-experience-modal.layout.js"></script>
 
         </body>
 

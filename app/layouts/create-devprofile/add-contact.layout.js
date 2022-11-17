@@ -70,7 +70,7 @@ app.directive("addContacts", function(){
 
                         <span class="float-end">
 
-                            <a href="#!addContact" style="text-decoration:none;">
+                            <a href="#!devprofile" style="text-decoration:none;">
                                 <button class="w-100 btn btn-outline-light" type="submit">
                                     Skip Contact <i class="fa fa-arrow-circle-right"></i>
                                 </button>
@@ -298,17 +298,20 @@ app.directive("addContacts", function(){
 
                             </div>
 
+
                         </div>
+                        <!-- end of links column -->
+
 
                     </div>
 
                 </div>
 
                 <div align="center">
-                    <a style="text-decoration:none;">
-                        <button class="w-50 btn btn-lg btn-outline-light mb-5" data-bs-toggle="modal" data-bs-target="#avatarModal">
+                    <a href="#!addAvatar" style="text-decoration:none;">
+                        <button class="w-50 btn btn-lg btn-outline-light mb-5">
                             <font color="#5379F6">
-                                Finish <i class="fa fa-smile-o"></i>
+                                Next <i class="fa fa-arrow-circle-right"></i>
                             </font>
                         </button>
                     </a>
@@ -445,6 +448,9 @@ app.directive("addContacts", function(){
         </div>
 
     </div>
+
+    
+    
      
         `
 

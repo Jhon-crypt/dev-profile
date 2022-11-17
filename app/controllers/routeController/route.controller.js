@@ -28,5 +28,11 @@ app.config(function($routeProvider){
     .when("/addContact", {
         templateUrl : "./app/views/create-devprofileView/add-contact.view.html"
     })
+    .when("/devprofile", {
+        templateUrl : "./app/views/devprofileView/devprofile.view.html"
+    })
+    .when("/addAvatar", {
+        templateUrl : "./app/views/add-avatarView/add-avatar.view.html"
+    })
 
 });
