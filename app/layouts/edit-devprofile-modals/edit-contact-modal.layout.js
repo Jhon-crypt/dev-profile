@@ -10,7 +10,7 @@ app.directive("editContactModal", function() {
 
                     <div class="modal-header bg-dark">
                         <h4 class="modal-title">
-                            <font color="#5379F6">Add Contact <i class="fa fa-id-badge"></i></font>
+                            <font color="#5379F6">Edit Contact <i class="fa fa-id-badge"></i></font>
                         </h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
@@ -20,20 +20,16 @@ app.directive("editContactModal", function() {
                         <form>
 
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Title">
+                                <input type="text" class="form-control mb-1" id="floatingInput" placeholder="Title">
                                 <label for="floatingInput" class="text-dark"><i class="fa fa-envelope"></i> Email address</label>
+                                <button class="btn btn-outline-light">Update <i class="fa fa-envelope"></i></button>
                             </div>
 
                             <div class="form-floating mb-3">
-                                <input type="link" class="form-control" id="floatingInput" placeholder="company">
+                                <input type="link" class="form-control mb-1" id="floatingInput" placeholder="company">
                                 <label for="floatingInput" class="text-dark"><i class="fa fa-phone"></i> Phone number</label>
+                                <button class="btn btn-outline-light">Update <i class="fa fa-phone"></i></button>
                             </div>
-
-                            <a href="#!addProjects" style="text-decoration:none;">
-                                <button class="w-100 btn btn-lg btn-outline-light" type="submit">
-                                    Add Contact <i class="fa fa-folder"></i>
-                                </button>
-                            </a>
 
                         </form>
 

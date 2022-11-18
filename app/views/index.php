@@ -90,6 +90,10 @@ class indexView{
 
             <script src="./app/layouts/edit-devprofile-modals/edit-experience-modal.layout.js"></script>
 
+            <script src="./app/layouts/edit-devprofile-modals/edit-contact-modal.layout.js"></script>
+
+            <script src="./app/layouts/edit-devprofile-modals/edit-skills-modal.layout.js"></script>
+
         </body>
 
         </html>

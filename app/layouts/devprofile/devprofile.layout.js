@@ -73,8 +73,12 @@ app.directive("devprofile", function(){
                             <i class="fa fa-user-circle-o mx-2"></i> Edit Profile
                         </a></li>
 
+                        <li data-bs-toggle="modal" data-bs-target="#addSkillsModal"><a class="dropdown-item"><a class="dropdown-item" href="">
+                            <i class="fa fa-superpowers mx-2"></i> Add Skills
+                        </a></li>
+
                         <li data-bs-toggle="modal" data-bs-target="#addProjectModal"><a class="dropdown-item">
-                            <i class="fa fa-suitcase mx-2"></i> Add projects
+                            <i class="fa fa-suitcase mx-2"></i> Add Projects
                         </a></li>
 
                         <li data-bs-toggle="modal" data-bs-target="#addExperienceModal"><a class="dropdown-item">
@@ -517,7 +521,25 @@ app.directive("devprofile", function(){
                                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" 
                                             data-bs-parent="#accordionExample">
                                                 <div class="accordion-body bg-dark text-light">
-                                                    johnoladele690@gmail.com
+
+                                                    <div class="clearfix pt-4">
+
+                                                        <span class="float-start">
+
+                                                            johnoladele690@gmail.com
+
+                                                        </span>
+
+                                                        <span class="float-end">
+
+                                                            <button class="btn btn-outline-light">
+                                                                <i class="fa fa-close"></i>
+                                                            </button>
+
+                                                        </span>
+
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -553,7 +575,26 @@ app.directive("devprofile", function(){
                                             <div id="collapsePhone" class="accordion-collapse collapse" aria-labelledby="headingTwo" 
                                             data-bs-parent="#accordionMail">
                                                 <div class="accordion-body bg-dark text-light">
-                                                    09061811990
+                        
+
+                                                    <div class="clearfix pt-4">
+
+                                                        <span class="float-start">
+
+                                                            09061811990
+
+                                                        </span>
+
+                                                        <span class="float-end">
+
+                                                            <button class="btn btn-outline-light">
+                                                                <i class="fa fa-close"></i>
+                                                            </button>
+
+                                                        </span>
+
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
