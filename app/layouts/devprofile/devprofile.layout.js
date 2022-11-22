@@ -576,7 +576,6 @@ app.directive("devprofile", function(){
                                             data-bs-parent="#accordionMail">
                                                 <div class="accordion-body bg-dark text-light">
                         
-
                                                     <div class="clearfix pt-4">
 
                                                         <span class="float-start">
@@ -637,31 +636,102 @@ app.directive("devprofile", function(){
                                             data-bs-parent="#accordionMail">
                                                 <div class="accordion-body bg-dark text-light">
                                                 
-                                                    <ul class="nav">
+                                                    <ul class="nav flex-column">
 
 
                                                         <li class="nav-item">
                                                             <a class="nav-link text-light" style="text-decoration:none;">
-                                                                <i class="fa fa-github-square" style="font-size:25px;"></i>
+
+                                                                <div class="clearfix pt-4">
+
+                                                                    <span class="float-start">
+    
+                                                                        <i class="fa fa-github-square" style="font-size:25px;"></i>
+    
+                                                                    </span>
+    
+                                                                    <span class="float-end">
+    
+                                                                        <button class="btn btn-outline-light">
+                                                                            <i class="fa fa-close" style="font-size:25px;"></i>
+                                                                        </button>
+    
+                                                                    </span>
+    
+                                                                </div>
+
                                                             </a>
                                                         </li>
 
-
                                                         <li class="nav-item">
                                                             <a class="nav-link text-light" style="text-decoration:none;">
-                                                                <i class="fa fa-twitter-square" style="font-size:25px;"></i>
+
+                                                                <div class="clearfix pt-4">
+
+                                                                    <span class="float-start">
+
+                                                                        <i class="fa fa-twitter-square" style="font-size:25px;"></i>
+
+                                                                    </span>
+
+                                                                    <span class="float-end">
+
+                                                                        <button class="btn btn-outline-light">
+                                                                            <i class="fa fa-close" style="font-size:25px;"></i>
+                                                                        </button>
+
+                                                                    </span>
+
+                                                                </div>
+
                                                             </a>
                                                         </li>
 
                                                         <li class="nav-item">
                                                             <a class="nav-link text-light" style="text-decoration:none;">
-                                                                <i class="fa fa-facebook-square" style="font-size:25px;"></i>
+
+                                                                <div class="clearfix pt-4">
+
+                                                                    <span class="float-start">
+
+                                                                        <i class="fa fa-facebook-square" style="font-size:25px;"></i>
+
+                                                                    </span>
+
+                                                                    <span class="float-end">
+
+                                                                        <button class="btn btn-outline-light">
+                                                                            <i class="fa fa-close" style="font-size:25px;"></i>
+                                                                        </button>
+
+                                                                    </span>
+
+                                                                </div>
+
                                                             </a>
                                                         </li>
 
                                                         <li class="nav-item">
                                                             <a class="nav-link text-light" style="text-decoration:none;">
-                                                                <i class="fa fa-linkedin-square" style="font-size:25px;"></i>
+
+                                                                <div class="clearfix pt-4">
+
+                                                                    <span class="float-start">
+
+                                                                        <i class="fa fa-linkedin-square" style="font-size:25px;"></i>
+
+                                                                    </span>
+
+                                                                    <span class="float-end">
+
+                                                                        <button class="btn btn-outline-light">
+                                                                            <i class="fa fa-close" style="font-size:25px;"></i>
+                                                                        </button>
+
+                                                                    </span>
+
+                                                                </div>
+
                                                             </a>
                                                         </li>
 
@@ -707,13 +777,49 @@ app.directive("devprofile", function(){
 
                                                         <li class="nav-item">
                                                             <a class="nav-link">
-                                                                https://htmx.org/
+                                    
+                                                                <div class="clearfix pt-4">
+
+                                                                    <span class="float-start">
+
+                                                                        https://htmx.org/
+
+                                                                    </span>
+
+                                                                    <span class="float-end">
+
+                                                                        <button class="btn btn-outline-light">
+                                                                            <i class="fa fa-close" style="font-size:25px;"></i>
+                                                                        </button>
+
+                                                                    </span>
+
+                                                                </div>
+
                                                             </a>
                                                         </li>
 
                                                         <li class="nav-item">
                                                             <a class="nav-link">
-                                                                https://htmx.org/
+
+                                                                <div class="clearfix pt-4">
+
+                                                                    <span class="float-start">
+
+                                                                        https://htmx.org/
+
+                                                                    </span>
+
+                                                                    <span class="float-end">
+
+                                                                        <button class="btn btn-outline-light">
+                                                                            <i class="fa fa-close" style="font-size:25px;"></i>
+                                                                        </button>
+
+                                                                    </span>
+
+                                                                </div>
+
                                                             </a>
                                                         </li>
 
