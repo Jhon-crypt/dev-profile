@@ -21,7 +21,7 @@ class indexView{
             <meta name="author" content="Oladele John, JohnOx">
             <title>Devprofile</title>
 
-            <!-- custom CSS -->
+            <!-- custom CS -->
             <link href="index.css" rel="stylesheet">
 
             <!-- Bootstrap core CSS -->
