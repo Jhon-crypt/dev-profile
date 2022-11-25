@@ -94,6 +94,14 @@ class indexView{
 
             <script src="./app/layouts/edit-devprofile-modals/edit-skills-modal.layout.js"></script>
 
+            <script src="./app/layouts/edit-devprofile-modals/edit-socials.modal.js"></script>
+
+            <script src="./app/layouts/edit-devprofile-modals/edit-links.modal.js"></script>
+
+            <script src="./app/layouts/settings/settings.layout.js"></script>  
+            
+            <script src="./app/layouts/account/account.layout.js"></script>
+
         </body>
 
         </html>

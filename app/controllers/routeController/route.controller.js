@@ -34,5 +34,11 @@ app.config(function($routeProvider){
     .when("/addAvatar", {
         templateUrl : "./app/views/add-avatarView/add-avatar.view.html"
     })
+    .when("/settings", {
+        templateUrl : "./app/views/settingsView/settings.view.html"
+    })
+    .when("/account", {
+        templateUrl : "./app/views/accountView/account.view.html"
+    })
 
 });

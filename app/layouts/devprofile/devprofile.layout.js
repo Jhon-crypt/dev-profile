@@ -33,7 +33,7 @@ app.directive("devprofile", function(){
                                 <i class="fa fa-plus-circle mx-2"></i>New Profile
                             </a></li>
 
-                            <li><a class="dropdown-item">
+                            <li><a class="dropdown-item" href="#!account">
                                 <i class="fa fa-user-circle-o mx-2"></i>Account
                             </a></li>
 
@@ -88,6 +88,15 @@ app.directive("devprofile", function(){
                         <li data-bs-toggle="modal" data-bs-target="#editContactModal"><a class="dropdown-item">
                             <i class="fa fa-id-badge mx-2"></i> Edit Contact
                         </a></li>
+
+                        <li data-bs-toggle="modal" data-bs-target="#editSocialsModal"><a class="dropdown-item">
+                            <i class="fa fa fa-comment-o mx-2"></i> Add Socials 
+                        </a></li>
+
+                        <li data-bs-toggle="modal" data-bs-target="#editLinksModal"><a class="dropdown-item">
+                            <i class="fa fa fa-external-link mx-2"></i> Add Links
+                        </a></li>
+
                     </ul>
 
                 </div>
@@ -825,7 +834,25 @@ app.directive("devprofile", function(){
 
                                                         <li class="nav-item">
                                                             <a class="nav-link">
-                                                                https://github.com/Jhon-crypt/
+
+                                                                <div class="clearfix pt-4">
+
+                                                                    <span class="float-start">
+
+                                                                        https://github.com/Jhon-crypt/
+
+                                                                    </span>
+
+                                                                    <span class="float-end">
+
+                                                                        <button class="btn btn-outline-light">
+                                                                            <i class="fa fa-close" style="font-size:25px;"></i>
+                                                                        </button>
+
+                                                                    </span>
+
+                                                                </div>
+
                                                             </a>
                                                         </li>
 

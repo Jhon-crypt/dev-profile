@@ -32,7 +32,7 @@ app.directive("addExperience", function(){
                                 <i class="fa fa-plus-circle mx-2"></i>New Profile
                             </a></li>
 
-                            <li><a class="dropdown-item">
+                            <li><a class="dropdown-item" href="#!account">
                                 <i class="fa fa-user-circle-o mx-2"></i>Account
                             </a></li>
 

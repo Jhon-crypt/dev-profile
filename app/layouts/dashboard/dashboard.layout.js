@@ -32,7 +32,7 @@ app.directive("dashboard", function(){
                                 <i class="fa fa-plus-circle mx-2"></i>New Profile
                             </a></li>
 
-                            <li><a class="dropdown-item">
+                            <li><a class="dropdown-item" href="#!account">
                                 <i class="fa fa-user-circle-o mx-2"></i>Account
                             </a></li>
 
@@ -54,8 +54,44 @@ app.directive("dashboard", function(){
 
             <hr>
 
-            <div class="px-4 py-5 text-center text-light">
+            <div class="px-4 py-5 text-light">
 
+                <div class="row">
+
+                    <div class="col mb-2">
+
+                        <div class="card bg-dark" style="width:250px;">
+
+                            <div class="card-body">
+
+                                <div align="center">
+
+                                    <img class="d-block mx-auto mb-4" src="./app/images/nftt.png"
+                                    style="object-fit:cover;border:1px solid black;height:100px;border-radius:30px;width:100px;">
+
+                                    <h4 class="display-9 fw-bold"> 
+                                        <font color="#5379F6">I'm John Doe</font>
+                                    </h4>
+
+                                    <div class="mb-1">
+                                        <span><small>Full Stack Developer</small></span>
+                                    </div>
+
+                                    <button class="btn btn-outline-light">View <i class="fa fa-external-link"></i></button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- end of column -->
+
+                </div>
+                <!-- end of grid row -->
+
+                <!--  
                 <h2 class="display-5 fw-bold text-muted pb-2"> 
                     No Devprofile
                 </h2>
@@ -67,6 +103,7 @@ app.directive("dashboard", function(){
                         </button>
                     </a>
                 </div>
+                -->
 
             </div>
 
