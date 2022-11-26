@@ -90,7 +90,7 @@ app.directive("account", function(){
 
                 <ul class="nav justify-content-center">
 
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-toggle="modal" data-bs-target="#editAccountModal">
 
                         <a class="nav-link text-light" style="text-decoration:none;">
 
@@ -114,7 +114,7 @@ app.directive("account", function(){
 
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-toggle="modal" data-bs-target="#updatePasswordModal">
 
                         <a class="nav-link text-light" style="text-decoration:none;">
 
@@ -138,6 +138,29 @@ app.directive("account", function(){
 
                     </li>
 
+                    <li class="nav-item">
+
+                        <a class="nav-link text-light" style="text-decoration:none;">
+
+                            <div class="card bg-dark" style="width:200px;">
+
+                                <div class="card-body">
+
+                                    <div align="center">
+
+                                        <i class="fa fa-sign-out mb-1" style="font-size:60px;"></i>
+
+                                        <h4>Logout</h4>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </a>
+
+                    </li>
 
                 </ul>
 
