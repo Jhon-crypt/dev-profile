@@ -106,6 +106,8 @@ class indexView{
 
             <script src="./app/layouts/account/account-modals/update-password.modal.layout.js"></script>
 
+            <script src="./app/layouts/account/account-modals/logout.modal.layout.js"></script>
+
         </body>
 
         </html>

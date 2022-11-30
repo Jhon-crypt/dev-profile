@@ -138,7 +138,7 @@ app.directive("account", function(){
 
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-toggle="modal" data-bs-target="#logoutModal">
 
                         <a class="nav-link text-light" style="text-decoration:none;">
 

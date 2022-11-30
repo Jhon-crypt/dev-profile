@@ -20,7 +20,7 @@ app.directive("signup", function(){
                         </h1>
 
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                             <label for="floatingInput">Username <i class="fa fa-user-circle-o"></i></label>
                         </div>
 
@@ -33,7 +33,7 @@ app.directive("signup", function(){
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                             <label for="floatingPassword">Password <i class="fa fa-lock"></i></label>
                         </div>
 
