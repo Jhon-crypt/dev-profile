@@ -36,11 +36,7 @@ app.directive("dashboard", function(){
                                 <i class="fa fa-user-circle-o mx-2"></i>Account
                             </a></li>
 
-                            <li><a class="dropdown-item">
-                                <i class="fa fa-lock mx-2"></i>Security
-                            </a></li>
-
-                            <li><a class="dropdown-item">
+                            <li><a class="dropdown-item" href="#!account">
                                 <i class="fa fa-sign-out mx-2"></i>Logout
                             </a></li>
 
@@ -77,7 +73,11 @@ app.directive("dashboard", function(){
                                         <span><small>Full Stack Developer</small></span>
                                     </div>
 
-                                    <button class="btn btn-outline-light">View <i class="fa fa-external-link"></i></button>
+                                    <button class="btn btn-outline-light">
+                                        <a class="text-light" href="#!devprofile" style="text-decoration:none;">
+                                            View <i class="fa fa-external-link"></i>
+                                        </a>
+                                    </button>
 
                                 </div>
 
