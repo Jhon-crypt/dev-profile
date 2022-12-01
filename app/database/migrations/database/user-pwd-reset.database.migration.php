@@ -1,18 +1,14 @@
 <?php
 
-include("../../../../vendor/autoload.php");
-
-//loading env variables
-$env = Dotenv\Dotenv::createImmutable('../../../../');
-$env->load();
+namespace App\database\migrations\database;
 
 class userPasswordResetDbMigration{
 
     public $conn;
 
-    public function connection($sever,$username,$password){
+    public function connection($sever,$username,$password,$mysqli){
 
-        $this->conn = new mysqli($sever,$username,$password);
+        $this->conn = new $mysqli($sever,$username,$password);
 
         if($this->conn->connect_error){
 
@@ -44,11 +40,5 @@ class userPasswordResetDbMigration{
     }
 
 }
-
-$user_password_reset_db_migration = new userPasswordResetDbMigration();
-
-$user_password_reset_db_migration->connection($_SERVER['server_name'],$_SERVER['username'],$_ENV['password']);
-
-$user_password_reset_db_migration->createUserPasswordResetDatabase();
 
 ?>

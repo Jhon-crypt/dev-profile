@@ -1,18 +1,14 @@
 <?php
 
-include("../../../../vendor/autoload.php");
-
-//loading env variables
-$env = Dotenv\Dotenv::createImmutable('../../../../');
-$env->load();
+namespace App\database\migrations\database;
 
 class userAccountDbMigration{
 
     public $conn;
 
-    public function connection($sever,$username,$password){
+    public function connection($sever,$username,$password,$mysqli){
 
-        $this->conn = new mysqli($sever,$username,$password);
+        $this->conn = new $mysqli($sever,$username,$password);
 
         if($this->conn->connect_error){
 
@@ -45,10 +41,5 @@ class userAccountDbMigration{
 
 }
 
-$user_account_db_migration = new userAccountDbMigration();
-
-$user_account_db_migration->connection($_SERVER['server_name'],$_SERVER['username'],$_ENV['password']);
-
-$user_account_db_migration->createUserAccountDatabase();
 
 ?>

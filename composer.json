@@ -6,7 +6,9 @@
     },
     "autoload":{
         "classmap": [
-            "App/views"
+            "App/views",
+            "App/database/migrations/database",
+            "App/database/connections"
         ]
     }
 

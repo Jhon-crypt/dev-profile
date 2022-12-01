@@ -2,7 +2,7 @@
 
 namespace App\database\migrations\database;
 
-class userDevProfileDbMigration{
+class userContactDbMigration{
 
     public $conn;
 
@@ -22,18 +22,17 @@ class userDevProfileDbMigration{
 
     }
 
+    public function createUserContactDatabase(){
 
-    public function createUserProfileDatabase(){
-
-        $statement = "CREATE DATABASE devprofile_user_profile";
+        $statement = "CREATE DATABASE devprofile_user_contact";
 
         if($this->conn->query($statement) === TRUE){
 
-            echo "Devprofile user profile database has been created<br>";
+            echo "Devprofile user contact database has been created<br>";
 
         }else{
 
-            echo "Could not create devprofile user profile database has been created<br>";
+            echo "Could not create devprofile user contact database has been created<br>";
 
 
         }
@@ -41,6 +40,5 @@ class userDevProfileDbMigration{
     }
 
 }
-
 
 ?>
