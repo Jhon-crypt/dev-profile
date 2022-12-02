@@ -2,15 +2,15 @@
 
 namespace App\database\connections;
 
-class userProjectDbConnection{
+class userPasswordResetDbConnection{
 
-    public $user_project_conn;
+    public $user_password_reset_conn;
 
     public function connection($sever,$username,$password,$database,$mysqli){
 
-        $this->user_project_conn = new $mysqli($sever,$username,$password,$database);
+        $this->user_password_reset_conn = new $mysqli($sever,$username,$password,$database);
 
-        if($this->user_project_conn->connect_error){
+        if($this->user_password_reset_conn->connect_error){
 
             echo "Could not Connect<br>";
 
@@ -25,3 +25,4 @@ class userProjectDbConnection{
 }
 
 ?>
+

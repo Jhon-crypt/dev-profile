@@ -2,15 +2,15 @@
 
 namespace App\database\connections;
 
-class userProjectDbConnection{
+class userSkillsDbConnection{
 
-    public $user_project_conn;
+    public $user_skills_conn;
 
     public function connection($sever,$username,$password,$database,$mysqli){
 
-        $this->user_project_conn = new $mysqli($sever,$username,$password,$database);
+        $this->user_skills_conn = new $mysqli($sever,$username,$password,$database);
 
-        if($this->user_project_conn->connect_error){
+        if($this->user_skills_conn->connect_error){
 
             echo "Could not Connect<br>";
 

@@ -14,6 +14,12 @@ use App\database\connections\userExperienceDbConnection;
 
 use App\database\connections\userProfileDbConnection;
 
+use App\database\connections\userProjectDbConnection;
+
+use App\database\connections\userSkillsDbConnection;
+
+use App\database\connections\userPasswordResetDbConnection;
+
 class databaseConnectionTest{
 
     public function userAccountConnectionTest(){
@@ -48,6 +54,30 @@ class databaseConnectionTest{
 
     }
 
+    public function userProjectsConnectionTest(){
+
+        $user_project_connection_test = new userProjectDbConnection();
+
+        $user_project_connection_test->connection($_SERVER['server_name'],$_SERVER['username'],$_ENV['password'],"devprofile_user_projects","mysqli");
+
+    }
+
+    public function userSkillsConnectionTest(){
+
+        $user_skills_connection_test = new userSkillsDbConnection();
+
+        $user_skills_connection_test->connection($_SERVER['server_name'],$_SERVER['username'],$_ENV['password'],"devprofile_user_skills","mysqli");
+
+    }
+
+    public function userPasswordResetDbConnection(){
+
+        $user_password_reset_connection_test = new userPasswordResetDbConnection();
+
+        $user_password_reset_connection_test->connection($_SERVER['server_name'],$_SERVER['username'],$_ENV['password'],"devprofile_user_password_reset","mysqli");
+
+    }
+
 }
 
 $database_connection_test = new databaseConnectionTest();
@@ -58,6 +88,12 @@ $database_connection_test = new databaseConnectionTest();
 
 //$database_connection_test->userExperienceConnectionTest();
 
-$database_connection_test->userProfileConnectionTest();
+//$database_connection_test->userProfileConnectionTest();
+
+//$database_connection_test->userProjectsConnectionTest();
+
+$database_connection_test->userSkillsConnectionTest();
+
+$database_connection_test->userPasswordResetDbConnection();
 
 ?>
