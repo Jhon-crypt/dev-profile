@@ -8,7 +8,8 @@
         "classmap": [
             "App/views",
             "App/database/migrations/database",
-            "App/database/connections"
+            "App/database/connections",
+            "App/database/migrations/tables"
         ]
     }
 
